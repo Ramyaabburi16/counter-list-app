@@ -1,0 +1,98 @@
+
+.App {
+  text-align: center;
+  padding-top: 50px;
+  background: #f0f4ff;
+  min-height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 30px 40px;
+  margin: 0 auto;
+  width: 350px; /* a bit wider for layout */
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: left; /* align text inside card to left */
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.counter-section h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* Counter controls aligned left with spacing */
+.counter-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* space between buttons and count */
+  margin-bottom: 20px;
+}
+
+.counter-controls button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+  background: white;
+  color: #007bff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.counter-controls button:hover {
+  background: #007bff;
+  color: white;
+}
+
+.counter-value {
+  font-size: 24px;
+  min-width: 30px;
+  text-align: center;
+}
+
+
+.buttons-row {
+  display: flex;
+  gap: 15px;
+}
+
+/* Add button style */
+.add-button {
+  flex-grow: 1; 
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.add-button:hover {
+  background: #005dc1;
+}
+
+
+.reset-button {
+  background: #ff4d4d;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+
+  
